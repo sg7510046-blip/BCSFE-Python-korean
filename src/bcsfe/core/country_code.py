@@ -5,10 +5,10 @@ from bcsfe import core
 
 
 class CountryCodeType(enum.Enum):
-    EN = "영어"
-    JP = "일본어"
-    KR = "한국어"
-    TW = "태국어"
+    EN = "en"
+    JP = "jp"
+    KR = "kr"
+    TW = "tw"
 
 
 class CountryCode:
